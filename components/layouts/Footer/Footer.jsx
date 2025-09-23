@@ -17,12 +17,12 @@ const Footer = ({ lenisRef }) => {
           <h1 className={styles.h1}>Intrested in work together ?</h1>
           <div className={styles.btns_flex_container}>
             <ButtonWhite
-              label="miakubert@contact.com"
+              label="zaraabbudi@contact.com"
               //  Add you mail here.
               href="mailto:#add_you_mail"
             />
             {/* replace you phonr here. */}
-            <ButtonWhite label="+212 123 456 789" href="tel:+212123456789" />
+            <ButtonWhite label="212 123 456 789" href="tel:+212123456789" />
           </div>
         </div>
         <div className={styles.bottom_footer}>
