@@ -1,0 +1,86 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Mail */
+
+.mail {
+  font-family: "neue montreal", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: -0.025rem;
+  position: relative;
+}
+
+.mail::after {
+  content: "";
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.mail:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Responsive  */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .mail {
+    font-size: 1.3rem;
+    line-height: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.1em;
+  }
+
+  .mail {
+    font-size: 1rem;
+    line-height: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 1em;
+  }
+
+  .mail {
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+  }
+}

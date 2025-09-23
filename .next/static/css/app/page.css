@@ -1,0 +1,1728 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/Hero/hero.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.hero_hero_section__ywu9d {
+  position: relative;
+  display: flex;
+  height: 100dvh;
+  width: 100%;
+  align-items: center;
+  background: url("/assets/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero_hero_right_col__I7G4e {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  justify-content: end;
+  padding: 2.5rem;
+}
+
+.hero_h1_div__OjO0M {
+  z-index: 50;
+  overflow: hidden;
+}
+
+.hero_h1__R9kaD {
+  z-index: 50;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 8rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.hero_hero_left_col__l2CU8 {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1.5rem;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.hero_intro__s6V7h {
+  width: 80%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .hero_hero_section__ywu9d {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+  }
+
+  .hero_hero_right_col__I7G4e {
+    display: flex;
+    flex: 1;
+    height: 0;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .hero_h1__R9kaD {
+    font-size: 9rem;
+  }
+
+  .hero_hero_left_col__l2CU8 {
+    display: flex;
+    flex: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1.5rem;
+
+    padding: 0 3rem 3rem 3rem;
+  }
+
+  .hero_intro__s6V7h {
+    width: 70%;
+    font-family: "neue montreal", sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #fff;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero_h1__R9kaD {
+    font-size: 6rem;
+  }
+
+  .hero_intro__s6V7h {
+    width: 70%;
+    font-family: "neue montreal", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #fff;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero_hero_right_col__I7G4e,
+  .hero_hero_left_col__l2CU8 {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .hero_h1__R9kaD {
+    font-size: 4.5rem;
+  }
+
+  .hero_intro__s6V7h {
+    width: 90%;
+    font-family: "neue montreal", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero_h1__R9kaD {
+    font-size: 3.5rem;
+  }
+
+  .hero_intro__s6V7h {
+    width: 90%;
+    font-family: "neue montreal", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/Marquee/marquee.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.marquee_wrapper__K_Hpl {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  color: #171717;
+  font-family: "neue montreal", sans-serif;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee_track__r_S2x {
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  gap: 3rem;
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* Responsive  */
+@media (max-width: 820px) {
+  .marquee_wrapper__K_Hpl {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .marquee_wrapper__K_Hpl {
+    font-size: 5rem;
+    padding: 2rem 0;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layouts/Header/header.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.header_header__vwPKA {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 10;
+  width: 100%;
+}
+
+.header_logo__be4Bo {
+  color: #fff;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Mail */
+
+.header_mail__QkH2_ {
+  font-family: "neue montreal", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: -0.025rem;
+  position: relative;
+}
+
+.header_mail__QkH2_::after {
+  content: "";
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.header_mail__QkH2_:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Responsive  */
+@media (max-width: 1024px) {
+  .header_header__vwPKA {
+    padding: 0.5rem 1rem;
+  }
+
+  .header_logo__be4Bo {
+    font-size: 1.4rem;
+  }
+
+  .header_mail__QkH2_ {
+    font-size: 1.3rem;
+    line-height: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_header__vwPKA {
+    padding: 0.5rem;
+  }
+
+  .header_logo__be4Bo {
+    font-size: 1.1em;
+  }
+
+  .header_mail__QkH2_ {
+    font-size: 1rem;
+    line-height: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .header_logo__be4Bo {
+    font-size: 1em;
+  }
+
+  .header_mail__QkH2_ {
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/ButtonWhite/ButtonWhite.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.ButtonWhite_btn__EylZl {
+  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #f1f1f1;
+  outline: none;
+  padding: 12px 40px;
+  height: 55px;
+  border-radius: 100px;
+  overflow: hidden;
+  transform: scaleX(1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  font-family: "FormaDJRDisplay", sans-serif;
+}
+
+.ButtonWhite_btn__EylZl:hover {
+  animation: ButtonWhite_animate-scaleX__RK47T 0.6s cubic-bezier(0.4, 0, 0, 1);
+  background: transparent;
+}
+
+.ButtonWhite_btn__EylZl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #f1f1f1;
+  transition:
+    transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+    border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(100%);
+}
+
+.ButtonWhite_btn__EylZl:hover::after {
+  transform: translateY(0%);
+  border-radius: 0;
+}
+
+.ButtonWhite_btn__EylZl span {
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  position: relative;
+  color: #f1f1f1;
+  z-index: 2;
+}
+
+.ButtonWhite_btn__EylZl span:after {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  content: attr(data-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 1;
+  transform: translate(-50%, 100%);
+  color: #171717;
+}
+
+.ButtonWhite_btn__EylZl:hover span:after {
+  transform: translate(-50%, 0);
+}
+
+.ButtonWhite_btn__EylZl:focus {
+  outline: none;
+}
+
+@keyframes ButtonWhite_animate-scaleX__RK47T {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.05);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 680px) {
+  .ButtonWhite_btn__EylZl {
+    margin-top: 1rem;
+    padding: 12px 30px;
+    height: 50px;
+  }
+  .ButtonWhite_btn__EylZl span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ButtonWhite_btn__EylZl {
+    margin-top: 1rem;
+    padding: 12px 30px;
+    height: 50px;
+  }
+  .ButtonWhite_btn__EylZl span {
+    font-size: 17px;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/Button/Button.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_btn__74q5R {
+  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #171717;
+  outline: none;
+  padding: 12px 40px;
+  height: 55px;
+  border-radius: 100px;
+  overflow: hidden;
+  transform: scaleX(1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  font-family: "FormaDJRDisplay", sans-serif;
+}
+
+.Button_btn__74q5R:hover {
+  animation: Button_animate-scaleX__a4aQn 0.6s cubic-bezier(0.4, 0, 0, 1);
+  background: transparent;
+}
+
+.Button_btn__74q5R::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #171717;
+  transition:
+    transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+    border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(100%);
+}
+
+.Button_btn__74q5R:hover::after {
+  transform: translateY(0%);
+  border-radius: 0;
+}
+
+.Button_btn__74q5R span {
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  position: relative;
+  color: #171717;
+  z-index: 2;
+}
+
+.Button_btn__74q5R span:after {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  content: attr(data-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 1;
+  transform: translate(-50%, 100%);
+  color: #fff;
+}
+
+.Button_btn__74q5R:hover span:after {
+  transform: translate(-50%, 0);
+}
+
+.Button_btn__74q5R:focus {
+  outline: none;
+}
+
+@keyframes Button_animate-scaleX__a4aQn {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.05);
+  }
+  ccc 100% {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 680px) {
+  .Button_btn__74q5R {
+    margin-top: 1rem;
+    padding: 12px 30px;
+    height: 50px;
+  }
+  .Button_btn__74q5R span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Button_btn__74q5R {
+    margin-top: 1rem;
+    padding: 12px 30px;
+    height: 50px;
+  }
+  .Button_btn__74q5R span {
+    font-size: 17px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/ExpertiseUi/expertise.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.expertise_container__m0Qnp {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.expertise_head_container__EXmBl {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.expertise_head_container_h1__XNlMB {
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #171717;
+}
+
+.expertise_head_container_p__KDQpe {
+  width: 90%;
+  font-family: "SuissIntl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #222;
+  letter-spacing: -0.015rem;
+}
+
+.expertise_flex_col_data__lVZIO {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.expertise_tech_flex_col__JnCSz {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.expertise_tech_label___z7Ks {
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgba(23, 23, 23, 0.2);
+}
+
+.expertise_tech_line___ssPm {
+  height: 2px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: rgba(23, 23, 23, 0.2);
+  position: relative;
+}
+
+.expertise_tech_line___ssPm::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; /* anchor at the left */
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  border-radius: 9999px;
+
+  /* animation setup */
+  transform: scaleX(0);
+  transform-origin: right; /* grow from the right side */
+  transition: transform 0.4s cubic-bezier(0.65, 0.05, 0, 1);
+}
+
+.expertise_tech_flex_col__JnCSz:hover .expertise_tech_line___ssPm::after {
+  transform: scaleX(1); /* expands fully */
+  transform-origin: left;
+}
+
+/* Reponsive */
+@media (max-width: 1024px) {
+  .expertise_container__m0Qnp {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .expertise_head_container_h1__XNlMB {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .expertise_head_container_p__KDQpe {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 640px) {
+  .expertise_head_container__EXmBl {
+    gap: 1rem;
+  }
+
+  .expertise_head_container_h1__XNlMB {
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+  }
+
+  .expertise_head_container_p__KDQpe {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .expertise_tech_label___z7Ks {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .expertise_head_container_h1__XNlMB {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .expertise_head_container_p__KDQpe {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .expertise_tech_flex_col__JnCSz {
+    gap: 0.25rem;
+  }
+
+  .expertise_tech_label___z7Ks {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/ServiceUi/service.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.service_li_flex_col__iEH3K {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service_li_flex_col_h2__x_vMq {
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgba(23, 23, 23, 0.2);
+}
+
+.service_li_flex_col_line__RkdSi {
+  height: 2px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: rgba(23, 23, 23, 0.2);
+  position: relative;
+}
+
+.service_li_flex_col_line__RkdSi::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; /* anchor at the left */
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  border-radius: 9999px;
+
+  /* animation setup */
+  transform: scaleX(0);
+  transform-origin: right; /* grow from the right side */
+  transition: transform 0.4s cubic-bezier(0.65, 0.05, 0, 1);
+}
+
+.service_li_flex_col__iEH3K:hover .service_li_flex_col_line__RkdSi::after {
+  transform: scaleX(1); /* expands fully */
+  transform-origin: left;
+}
+
+.service_content__lEm49 {
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.service_content_p__NJkPu {
+  margin-top: 0.5rem;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .service_li_flex_col_h2__x_vMq {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .service_content_p__NJkPu {
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+  }
+}
+
+@media (max-width: 640px) {
+  .service_li_flex_col_h2__x_vMq {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .service_content_p__NJkPu {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/StaggerHeading/stagger.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.stagger_stagger_div__T_ZRo {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.stagger_stagger_div_span__02ebf {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #f1f1f1;
+}
+
+.stagger_stagger_div_absolute__O2fIF {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #f1f1f1;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/StaggerText/stagger.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.stagger_stagger_div__ps7Ni {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.stagger_stagger_div_span__WZSKL {
+  display: inline-block;
+  color: #f1f1f1;
+}
+
+.stagger_stagger_div_absolute__QlVSx {
+  position: absolute;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui animation/TestimonialsUi/testimonials.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+.testimonials_testimonial_container_li__EXe0k {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.testimonials_li_h2__nqrd2 {
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgba(23, 23, 23, 0.2);
+}
+
+.testimonials_li_location__zEfIN {
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
+  letter-spacing: 0.025em;
+  color: #222;
+}
+
+.testimonials_testimonial_container_line__xTiHT {
+  height: 2px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: rgba(23, 23, 23, 0.2);
+  position: relative;
+}
+
+.testimonials_testimonial_container_line__xTiHT::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; /* anchor at the left */
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  border-radius: 9999px;
+
+  /* animation setup */
+  transform: scaleX(0);
+  transform-origin: right; /* grow from the right side */
+  transition: transform 0.4s cubic-bezier(0.65, 0.05, 0, 1);
+}
+
+.testimonials_testimonial_container_li__EXe0k:hover .testimonials_testimonial_container_line__xTiHT::after {
+  transform: scaleX(1); /* expands fully */
+  transform-origin: left;
+}
+
+.testimonials_content__8ulPU {
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.testimonials_content_p__zYJ_0 {
+  margin-top: 0.5rem;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .testimonials_li_h2__nqrd2 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .testimonials_content_p__zYJ_0 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials_li_h2__nqrd2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .testimonials_content_p__zYJ_0 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonials_li_h2__nqrd2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .testimonials_li_location__zEfIN {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layouts/Footer/footer.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__BxLe_ {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #171717;
+  padding: 0 2.5rem;
+  padding-top: 4rem;
+}
+
+.footer_head_container__OTxMJ {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: start;
+}
+
+.footer_head_label__u_JLj {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #f1f1f1;
+}
+
+.footer_footer_content_center__VR0Wg {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_cta_contact__q9_6Z {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer_h1__BZh5W {
+  width: 50%;
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: #f1f1f1;
+}
+
+.footer_btns_flex_container__D4WVR {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer_bottom_footer__UsPQV {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.footer_first_col__8aHSG {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer_label_col_content__6oyiK {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer_h3__oKuT7 {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #ccc;
+}
+
+.footer_p__hD4b3 {
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: #f1f1f1;
+}
+
+.footer_social_link_container__BciOg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer_social_list__n0P7y {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .footer_footer_content_center__VR0Wg {
+    height: 35vh;
+    gap: 2.25rem;
+  }
+
+  .footer_h1__BZh5W {
+    width: 80%;
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .footer_bottom_footer__UsPQV {
+    margin-top: 1rem;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer_footer__BxLe_ {
+    padding: 3rem 1rem 0 1rem;
+    gap: 3rem;
+  }
+
+  .footer_footer_content_center__VR0Wg {
+    height: 50vh;
+  }
+
+  .footer_cta_contact__q9_6Z {
+    gap: 0.5rem;
+  }
+
+  .footer_h1__BZh5W {
+    width: 100%;
+    text-align: start;
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .footer_btns_flex_container__D4WVR {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+  }
+
+  .footer_bottom_footer__UsPQV {
+    flex-direction: column;
+  }
+
+  .footer_label_col_content__6oyiK {
+    gap: 0.25rem;
+  }
+
+  .footer_social_link_container__BciOg {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer_footer_content_center__VR0Wg {
+    height: 50vh;
+  }
+
+  .footer_h1__BZh5W {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/ui/BackToTop/back.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.back_back_to_top__HbVQW {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 50;
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #171717;
+  color: white;
+}
+
+.back_back_to_top__HbVQW:hover {
+  background-color: rgba(23, 23, 23, 0.8);
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layouts/Website/website.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.website_website___R9pX {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.website_inner_container__9lP7N {
+  position: relative;
+  display: flex;
+  height: 150dvh;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .website_inner_container__9lP7N {
+    height: 100dvh;
+  }
+}
+
+@media (max-width: 820px) {
+  .website_inner_container__9lP7N {
+    height: 100dvh;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .website_inner_container__9lP7N {
+    height: 90dvh;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .website_inner_container__9lP7N {
+    height: 80dvh;
+    padding: 0 0.5rem;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/Work/work.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.work_work_section__A2AYf {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.work_project_container__ZRbsp {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/About/about.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.about_about_section__OdQxg {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #f1f1f1;
+  padding: 4rem 0;
+}
+
+.about_head_container__pz77O {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: start;
+  padding: 0 2.5rem;
+}
+
+.about_head_label__QpVyK {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+.about_main_content__6tzBP {
+  display: flex;
+  gap: 6rem;
+  padding: 0 2.5rem;
+}
+
+.about_right_content__qNnU8 {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.about_right_content_p__i9AvL {
+  width: 80%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: #171717;
+}
+
+.about_left_content__Is7sE {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  align-items: start;
+}
+
+.about_left_content_p__5iOwO {
+  width: 70%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .about_about_section__OdQxg {
+    gap: 3.5rem;
+  }
+
+  .about_main_content__6tzBP {
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  .about_right_content__qNnU8 {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .about_right_content_p__i9AvL {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .about_left_content__Is7sE {
+    width: 100%;
+  }
+
+  .about_left_content_p__5iOwO {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .about_about_section__OdQxg {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .about_head_container__pz77O {
+    padding: 0;
+  }
+
+  .about_head_label__QpVyK {
+    color: #9ca3af;
+  }
+
+  .about_main_content__6tzBP {
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .about_right_content__qNnU8 {
+    gap: 0.75rem;
+  }
+
+  .about_right_content_p__i9AvL {
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 1.5;
+  }
+
+  .about_left_content_p__5iOwO {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .about_about_section__OdQxg {
+    padding: 3rem 1rem;
+  }
+
+  .about_main_content__6tzBP {
+    gap: 2.5rem;
+  }
+
+  .about_right_content_p__i9AvL {
+    font-size: 1rem;
+  }
+
+  .about_left_content_p__5iOwO {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/Expertise/expertise.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.expertise_expertise_section__X2EQz {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #f1f1f1;
+  padding: 4rem 0;
+}
+
+.expertise_head_container__Aa56H {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: start;
+  padding: 0 2.5rem;
+}
+
+.expertise_head_label__dvZsx {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+.expertise_expertise_flex_col__pJsgB {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  padding: 0 2.5rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .expertise_expertise_section__X2EQz {
+    gap: 3.5rem;
+  }
+
+  .expertise_expertise_flex_col__pJsgB {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .expertise_expertise_flex_col__pJsgB {
+    padding: 0;
+    gap: 4rem;
+  }
+
+  .expertise_expertise_section__X2EQz {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .expertise_head_container__Aa56H {
+    padding: 0;
+  }
+
+  .expertise_head_label__dvZsx {
+    color: #9ca3af;
+  }
+}
+
+@media (max-width: 400px) {
+  .expertise_expertise_section__X2EQz {
+    gap: 3rem;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/services/service.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.service_service_section__hMMQ0 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #f1f1f1;
+  padding: 4rem 0;
+}
+
+.service_head_container__cIrk8 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: start;
+  padding: 0 2.5rem;
+}
+
+.service_head_label__Nhl3N {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+.service_main_container__4rPYF {
+  display: flex;
+  align-items: start;
+  gap: 4rem;
+  padding: 0 2.5rem;
+}
+
+.service_left_container__B0r8P {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.service_left_container_h1__iBc7m {
+  width: 80%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: #171717;
+}
+
+.service_right_container__Wh9uF {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service_right_head_container__M7Lwa {
+  font-family: "FormaDJRDisplay", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222;
+}
+
+.service_service_list__WJBo9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .service_service_section__hMMQ0 {
+    gap: 3.5rem;
+  }
+
+  .service_main_container__4rPYF {
+    flex-direction: column;
+  }
+
+  .service_left_container__B0r8P {
+    gap: 1rem;
+  }
+
+  .service_left_container_h1__iBc7m {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 600px) {
+  .service_service_section__hMMQ0 {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .service_main_container__4rPYF {
+    padding: 0;
+  }
+
+  .service_head_container__cIrk8 {
+    padding: 0;
+  }
+
+  .service_head_label__Nhl3N {
+    color: #9ca3af;
+  }
+
+  .service_left_container_h1__iBc7m {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .service_main_container__4rPYF {
+    gap: 3.5rem;
+  }
+
+  .service_left_container__B0r8P {
+    gap: 0.75rem;
+  }
+
+  .service_left_container_h1__iBc7m {
+    font-size: 1rem;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/sections/Testimonials/testimonials.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.testimonials_testimonials_section__0PKO5 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #f1f1f1;
+  padding: 4rem 0;
+}
+
+.testimonials_head_container__u8amF {
+  display: flex;
+  height: fit-content;
+  align-items: start;
+  padding: 0 2.5rem;
+}
+
+.testimonials_head_label__fJBkJ {
+  font-family: "neue montreal", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+.testimonials_main_flex_col_container__NrPF_ {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 0 2.5rem;
+}
+
+.testimonials_main_flex_col_container_p__7SaUL {
+  width: 50%;
+  font-family: "neue montreal", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  color: #171717;
+}
+
+.testimonials_testimonials_grid__Ozy2w {
+  display: grid;
+  height: fit-content;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 1280px) {
+  .testimonials_testimonials_grid__Ozy2w {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonials_testimonials_section__0PKO5 {
+    gap: 3.5rem;
+  }
+
+  .testimonials_main_flex_col_container_p__7SaUL {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .testimonials_testimonials_grid__Ozy2w {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials_testimonials_section__0PKO5 {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .testimonials_main_flex_col_container__NrPF_ {
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .testimonials_head_container__u8amF {
+    padding: 0;
+  }
+
+  .testimonials_head_label__fJBkJ {
+    color: #9ca3af;
+  }
+
+  .testimonials_main_flex_col_container_p__7SaUL {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .testimonials_testimonials_grid__Ozy2w {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonials_testimonials_section__0PKO5 {
+    padding: 3rem 1rem;
+  }
+
+  .testimonials_main_flex_col_container__NrPF_ {
+    gap: 3.5rem;
+  }
+
+  .testimonials_main_flex_col_container_p__7SaUL {
+    font-size: 1rem;
+  }
+
+  .testimonials_testimonials_grid__Ozy2w {
+    gap: 1rem;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/app.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.app_wrapper__e3VIL {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 1rem;
+}
+
+.app_title__FQzJT {
+  overflow: hidden;
+  position: relative;
+}
+
+.app_title__FQzJT h1 {
+  color: #171717;
+  font-family: "neue montreal", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18.8vw;
+  letter-spacing: 0.025rem;
+  line-height: 0.8;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app_wrapper__e3VIL {
+    padding: 3rem 1rem;
+  }
+
+  .app_title__FQzJT h1 {
+    font-size: 18.6vw;
+    line-height: 0.8;
+  }
+}
+
+@media (max-width: 600px) {
+  .app_wrapper__e3VIL {
+    padding: 2rem 1rem;
+  }
+
+  .app_title__FQzJT h1 {
+    font-size: 18vw;
+    line-height: 0.8;
+  }
+}
+
+@media (max-width: 400px) {
+  .app_wrapper__e3VIL {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .app_title__FQzJT h1 {
+    font-size: 18.4vw;
+    line-height: 0.8;
+  }
+}
+
