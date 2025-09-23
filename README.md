@@ -1,14 +1,14 @@
-# **Mia  Kubert Portfolio Template**
+# **Zara Abbudi Portfolio Template**
 
 ### **Thank You for Your Purchase!**
 
-Thank you for purchasing the **Mia  Kubert Portfolio Template**. I’m excited to see how you customize it to showcase your work. This guide will help you set up, customize, and deploy your portfolio with ease. If you need assistance, I offer **100% free setup support** to ensure everything is running smoothly.
+Thank you for purchasing the **Zara Abbudi Portfolio Template**. I’m excited to see how you customize it to showcase your work. This guide will help you set up, customize, and deploy your portfolio with ease. If you need assistance, I offer **100% free setup support** to ensure everything is running smoothly.
 
 ---
 
 ### **Introduction**
 
-The **Mia Kubert Portfolio Template** is a **Next.js 14-powered SPA** crafted for creative professionals. It combines clean design, smooth animations (via **GSAP**), and responsive layouts to provide an engaging user experience. Styling is powered by **Tailwind CSS**, offering you flexibility to customize your template.
+The **Zara Abbudi Portfolio Template** is a **Next.js 14-powered SPA** crafted for creative professionals. It combines clean design, smooth animations (via **Framer motion**), and responsive layouts to provide an engaging user experience. Styling is powered by **Tailwind CSS**, offering you flexibility to customize your template.
 
 ---
 
